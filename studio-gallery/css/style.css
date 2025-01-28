@@ -1,0 +1,54 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+img {
+    width: 100%;
+    object-fit: cover;
+}
+#frame-1 {
+    border: 10px outset #644305;
+    margin: 23px 20px 10px;
+    box-shadow: -2px 2px 2px;
+    background-color: antiquewhite;
+    padding: 11px;
+    box-shadow: inset -2px 2px 2px #444;
+}
+#frame-1 img {
+    display: block;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+#frame-2 {
+    border: 8px outset #644305;
+    margin: 23px 20px 10px;
+    box-shadow: -2px 2px 2px;
+    background-color: antiquewhite;
+}
+#frame-2 img {
+    display: block;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+#frame-3 {
+    border: 8px outset #644305;
+    margin: 23px 12px 0px;
+    box-shadow: -1px 1px 2px #444;
+    background-color: antiquewhite;
+    
+}
+
+#frame-3 img {
+    width: 100px;
+    display: block;
+}
