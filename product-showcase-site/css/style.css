@@ -1,0 +1,34 @@
+#heading-1 {
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+}
+#heading-2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+img {
+    display: block;       
+    margin-left: auto;    
+    margin-right: auto;   
+    width: 50%;           
+    height: auto;         
+  }
+  #paragraph-1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .my-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
