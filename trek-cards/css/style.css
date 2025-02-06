@@ -55,6 +55,7 @@ body {
     padding: 12px;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.5s;
 }
 .card-style-1 a:hover {
     background: darkgreen;
