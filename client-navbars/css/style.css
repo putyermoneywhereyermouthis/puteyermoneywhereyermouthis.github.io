@@ -1,0 +1,109 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar1 {
+    background-color: #8a6e3b;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar1 a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.navbar1 a:hover {
+    background-color: #6f4f1f;
+}
+
+.navbar2 {
+    background-color: #e1aa51;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar2 a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.navbar2 a:hover {
+    background-color: #e07b00;
+}
+
+.cta-button {
+    background-color: #ff7400;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #e06200;
+}
+
+.navbar3 {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+}
+
+.navbar3 a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.navbar3 a:hover {
+    background-color: #555;
+}
+
+.promotion-banner {
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.category-nav {
+    background-color: #222;
+    padding: 10px;
+    font-family: 'Creepster', cursive;
+    text-align: center;
+}
+
+.category-nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.category-nav a:hover {
+    background-color: #444;
+}
