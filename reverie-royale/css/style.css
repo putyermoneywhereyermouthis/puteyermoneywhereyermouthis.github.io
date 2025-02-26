@@ -15,7 +15,7 @@ body {
 
 header {
   background-color: #FFEAC5;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 50px 20px;
 }
@@ -24,7 +24,7 @@ header h1 a {
   font-family: "rafaella", sans-serif;
   font-size: 4em;
   font-weight: bold;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ nav ul li a:hover {
   background: url('images/featured-dish-bg.jpg') no-repeat center center;
   background-size: cover;
   padding: 80px 20px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 #featured-dish h2 {
