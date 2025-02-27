@@ -29,7 +29,7 @@ header h1 a {
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(139,94,59);
   padding: 15px 0;
   text-align: center;
 }
@@ -54,6 +54,68 @@ nav ul li a:hover {
   color: #d4af37;
 }
 
+#hero {
+  background: url('https://cdn.pixabay.com/photo/2014/09/17/20/26/restaurant-449952_1280.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  position: relative;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#hero h2 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.cta-button {
+  background-color: #d4af37;
+  color: white;
+  padding: 15px 40px;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #b8922c;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2.5em;
+  color: #8b5e3b;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.2em;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
 #featured-dish {
   text-align: center;
   background: url('images/featured-dish-bg.jpg') no-repeat center center;
