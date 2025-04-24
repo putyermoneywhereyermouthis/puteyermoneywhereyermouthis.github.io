@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>I Have A Question..</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="card">
+          <img 
+            src="images/Brokeback mountain Jack and Ennis.jpg" 
+            alt="Liam G"
+            class="bbm-photo"
+          >
+      
+          <h1>Will you be my boyfriend?</h1>
+          
+          <div class="buttons">
+            <button class="yes" onclick="showResponse('I LOVE YOU!')">Yes</button>
+            <button class="no" onclick="window.location.href='sad.html'">No</button>
+          </div>
+          
+          <div class="response" id="responseText"></div>
+        </div>
+      
+        <script>
+          function showResponse(message) {
+            const response = document.getElementById('responseText');
+            response.textContent = message;
+            response.style.display = 'block';
+          }
+        </script>
+          </body>
+    </body>
+</html>
